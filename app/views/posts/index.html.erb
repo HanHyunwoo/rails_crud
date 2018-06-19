@@ -6,5 +6,9 @@
   <p> <%= post.title %> </p>
   <p> <%= post.body %> </p>
   <p> <%= post.created_at %> </p>
+  <a href="/posts/<%=post.id %>">게시글 들어가기 </a>
+  <a href="/posts/<%=post.id %>/destroy">게시글 삭제</a>
+  <a href="/posts/<%=post.id %>/edit">게시글 수정</a>
+  <a href="/posts/<%=post.id %>/edit2">게시글 수정2</a>
   <hr />
 <% end %>
